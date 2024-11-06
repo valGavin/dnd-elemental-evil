@@ -1,0 +1,90 @@
+{
+  "id": "dnd-elemental-evil",
+  "title": "Elemental Evil Player's Companion",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "<p>In the adventure Princes of the Apocalypse, the cosmic\nthreat of Elemental Evil reaches the Forgotten Realms.\nThis supplement provides new options for player\ncharacters in that epic campaign. If your Dungeon\nMaster allows, these options can be used in other\ncampaigns as well.</p>",
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/dnd-elemental-evil/assets/art/elemental-evil-cover.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "ee-races",
+      "label": "Races",
+      "path": "packs/ee-races",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ee-spells",
+      "label": "Spells",
+      "path": "packs/ee-spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ee-content",
+      "label": "Elemental Evil Player's Companion",
+      "path": "packs/ee-content",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Elemental Evil Player's Companion",
+      "color": "#273682",
+      "sorting": "m",
+      "packs": [
+        "ee-content",
+        "ee-races",
+        "ee-spells"
+      ],
+      "folders": []
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "sourceBooks": {
+        "EE": "Elemental Evil Player's Companion"
+      },
+      "spellLists": [
+        "Compendium.dnd-elemental-evil.ee-content.JournalEntry.0QXnitSZtflL6ehw.JournalEntryPage.CNirjnus3jTbedvQ",
+        "Compendium.dnd-elemental-evil.ee-content.JournalEntry.0QXnitSZtflL6ehw.JournalEntryPage.hnh8YSD90q932j8O",
+        "Compendium.dnd-elemental-evil.ee-content.JournalEntry.0QXnitSZtflL6ehw.JournalEntryPage.KLt6SIsFIsQhZPUA",
+        "Compendium.dnd-elemental-evil.ee-content.JournalEntry.0QXnitSZtflL6ehw.JournalEntryPage.T7uU2w4q8f0zeBbM",
+        "Compendium.dnd-elemental-evil.ee-content.JournalEntry.0QXnitSZtflL6ehw.JournalEntryPage.AlQpqh0BFDnzpiU0",
+        "Compendium.dnd-elemental-evil.ee-content.JournalEntry.0QXnitSZtflL6ehw.JournalEntryPage.oZvJQm9dY3bcb7oy"
+      ]
+    }
+  }
+}
